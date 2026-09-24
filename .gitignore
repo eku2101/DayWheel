@@ -1,0 +1,22 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime files and generated archives (dist is the tracked source)
+node_modules/
+.sites-runtime/
+*.log
+*.tar.gz
+*.zip
+
+# Personal browser exports
+daywheel-data-backup*.json
+backups/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/

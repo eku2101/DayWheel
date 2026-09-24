@@ -2,6 +2,8 @@
 
 A pink-and-purple spinning wheel for deciding what to do at each hour of the day.
 
+The project already includes separate HTML, CSS, and JavaScript files in `dist/`; no compilation is required. See [CHANGELOG.md](CHANGELOG.md) for all app adjustments and [DATA.md](DATA.md) for saved-data details and backup instructions. Git history preserves the original implementation and subsequent updates.
+
 ## Use the app
 
 1. Choose the hour you are planning.
