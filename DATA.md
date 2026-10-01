@@ -13,6 +13,7 @@ The app uses these localStorage keys on its origin:
 | `daywheel-v1` | Custom hourly activities (`hours`), most recent results (`picks`), and wheel state at the last save |
 | `daywheel-modes-v1` | Customized category and energy options, indexed by wheel type and hour |
 | `daywheel-spin-times-v1` | Spin-start timestamps used by the rolling 60-minute limit |
+| `daywheel-plan-meta-v1` | Dates, durations, and completion status for each planned hour |
 
 Publishing or pushing source code does not extract, upload, clear, or back up these browser values. The production URL and a local preview have separate storage. Browser data remains on the original browser/device; it is not automatically synchronized to GitHub or another device. No snapshot of personal browser data is included in this repository.
 
@@ -23,7 +24,7 @@ The app keeps only the most recent result for each planning hour. It does not re
 While viewing Daywheel in a browser with developer tools, run the following in that page's console to download a JSON copy of its saved values:
 
 ```js
-const keys = ['daywheel-v1', 'daywheel-modes-v1', 'daywheel-spin-times-v1'];
+const keys = ['daywheel-v1', 'daywheel-modes-v1', 'daywheel-spin-times-v1', 'daywheel-plan-meta-v1'];
 const backup = {
   app: 'Daywheel',
   exportedAt: new Date().toISOString(),

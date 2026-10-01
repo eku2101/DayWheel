@@ -48,6 +48,16 @@ My activities preserves the original customizable activities, including piano, s
 
 ## Three-spin limit
 
+## Customize your daily plan
+
+Each activity under “Your day, taking shape” now has Edit, Remove, Mark complete, and Add to Google Calendar controls. Edit its name, date, hour, and duration. Moving to an occupied hour is blocked to protect the existing activity. Manual changes do not consume spins. A new spin for an hour replaces its previous activity and resets its completion status.
+
+Google Calendar is optional: review the date, time, and duration, then choose Open Google Calendar and save the draft there. Times use your device timezone. This is a one-time event link, not two-way synchronization; future edits or removals in Daywheel do not update Google Calendar. Reopening and saving the draft again can create duplicates. Daywheel does not access your Google account or know whether you saved the event.
+
+Plan dates, durations, and completion status are saved locally in `daywheel-plan-meta-v1`. Existing hourly choices are preserved. The plan continues to allow one activity per hour; it is not a multi-day calendar database.
+
+## Three-spin limit
+
 You can start at most **3 spins in a rolling 60-minute period**, shared across all selected hours and wheel types. Changing the planning hour or reloading the page does not reset the limit. Each spin becomes available again 60 minutes after it was started. The app displays the number of available spins and the next available time when you reach the limit. A spin counts when it starts, even if the page closes before it finishes.
 
 The limit and settings are stored in localStorage in this browser. Same-origin tabs coordinate reservations with the Web Locks API when available. This is a personal-use restriction, not server-side enforcement: other browsers/devices, clearing browser data, or changing the device clock can bypass it. Storage must be available to spin. Your settings and plan are not synced between devices. Plan entries remain until replaced by another spin for that hour.
@@ -56,6 +66,7 @@ The limit and settings are stored in localStorage in this browser. Same-origin t
 
 - `dist/index.html`: layout and accessible result dialog.
 - `dist/style.css`: responsive pink-and-purple theme.
+- `dist/plan.js`: editable daily plan, local plan details, and optional Google Calendar drafts.
 - `dist/app.js`: wheel drawing, hourly options, random selection, result handling, and spin limit.
 - `.openai/hosting.json`: existing private Sites deployment configuration.
 

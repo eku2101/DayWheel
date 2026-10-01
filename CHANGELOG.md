@@ -1,5 +1,13 @@
 # Daywheel change history
 
+## 2026-10-01 — Editable daily plan and Google Calendar
+
+- Added editing activity names, dates, start hours, and durations, with protection against overwriting occupied hours.
+- Added removal and completion toggles; manual changes do not use spins.
+- Added optional Google Calendar event drafts with encoded titles and timezone-aware start/end times. Users review and save in Google; subsequent changes do not sync.
+- Preserved existing activity data and stored plan details in a separate browser key.
+- Checked JavaScript syntax, invalid dates, midnight rollover, occupied-hour protection, move persistence, and unchanged spin allowance.
+
 ## 2026-10-01 — Public website access
 
 - Changed the existing Sites website audience from owner-only to public at the user's request.
