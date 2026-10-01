@@ -4,6 +4,22 @@ A pink-and-purple spinning wheel for deciding what to do at each hour of the day
 
 The project already includes separate HTML, CSS, and JavaScript files in `dist/`; no compilation is required. See [CHANGELOG.md](CHANGELOG.md) for all app adjustments and [DATA.md](DATA.md) for saved-data details and backup instructions. Git history preserves the original implementation and subsequent updates.
 
+## Project reflection
+
+### What phenomenon or experience is your project representing?
+
+Daywheel represents the everyday experience of deciding how to spend your time when several activities compete for your attention. It turns that uncertainty into a playful interaction: choose an hour, set your possibilities, and spin.
+
+### What part of that experience matters most?
+
+The most important part is moving from indecision to action while keeping some personal control. You choose the options, and the wheel makes a suggestion. The three-spin limit encourages committing to a choice instead of repeatedly searching for a better result.
+
+### Does your current prototype represent that experience well? What does it capture or leave out?
+
+The prototype captures the anticipation, surprise, and relief of having a decision made. Editable options, hourly planning, and the result pop-up make the choice feel concrete. The pink-and-purple design keeps the experience playful.
+
+It leaves out some real-life complexity: deadlines, responsibilities, activity duration, and changing energy levels. Every option has an equal chance, even when one is more urgent. The energy wheel randomly selects an energy level rather than responding to how you actually feel. It also records a choice without knowing whether you followed through. These limits make it a useful decision prompt, but not yet a complete daily planner.
+
 ## Use the app
 
 1. Choose the hour you are planning.

@@ -1,5 +1,9 @@
 # Daywheel change history
 
+## 2026-10-01 — Project reflection
+
+- Added the three project reflection questions and answers to Readme.md, covering the experience represented, its most important aspect, and what the current prototype captures or leaves out.
+
 ## 2026-09-24 — GitHub project backup
 
 - Prepared the existing HTML, CSS, JavaScript, README, and Sites configuration for a private GitHub repository.
