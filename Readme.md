@@ -46,8 +46,6 @@ It leaves out some real-life complexity: deadlines, responsibilities, activity d
 
 My activities preserves the original customizable activities, including piano, studying, and lunch at 2 PM. Each wheel type has its own options for each selected hour.
 
-## Three-spin limit
-
 ## Customize your daily plan
 
 Each activity under “Your day, taking shape” now has Edit, Remove, Mark complete, and Add to Google Calendar controls. Edit its name, date, hour, and duration. Moving to an occupied hour is blocked to protect the existing activity. Manual changes do not consume spins. A new spin for an hour replaces its previous activity and resets its completion status.
@@ -58,7 +56,7 @@ Plan dates, durations, and completion status are saved locally in `daywheel-plan
 
 ## Three-spin limit
 
-You can start at most **3 spins in a rolling 60-minute period**, shared across all selected hours and wheel types. Changing the planning hour or reloading the page does not reset the limit. Each spin becomes available again 60 minutes after it was started. The app displays the number of available spins and the next available time when you reach the limit. A spin counts when it starts, even if the page closes before it finishes.
+You can start at most **3 spins per local clock hour**, shared across all selected hours and wheel types. Changing the planning hour or reloading the page does not reset the limit. All three spins become available at the start of the next clock hour (for example, at 3:00 PM), using your device’s local time. The app displays the number of available spins and the next available time when you reach the limit. A spin counts when it starts, even if the page closes before it finishes.
 
 The limit and settings are stored in localStorage in this browser. Same-origin tabs coordinate reservations with the Web Locks API when available. This is a personal-use restriction, not server-side enforcement: other browsers/devices, clearing browser data, or changing the device clock can bypass it. Storage must be available to spin. Your settings and plan are not synced between devices. Plan entries remain until replaced by another spin for that hour.
 

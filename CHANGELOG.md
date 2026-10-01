@@ -1,5 +1,11 @@
 # Daywheel change history
 
+## 2026-10-01 — Three spins per clock hour
+
+- Changed the rolling 60-minute limit to three spins per local clock hour, resetting at the start of the next hour.
+- Kept the shared allowance across planning hours and wheel modes, persistence through reloads, and existing spin records for the current hour.
+- Added the next reset time to the available-spin display.
+
 ## 2026-10-01 — Editable daily plan and Google Calendar
 
 - Added editing activity names, dates, start hours, and durations, with protection against overwriting occupied hours.
