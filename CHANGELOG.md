@@ -1,5 +1,12 @@
 # Daywheel change history
 
+## 2026-10-01 — Public website access
+
+- Changed the existing Sites website audience from owner-only to public at the user's request.
+- Verified unauthenticated HTTP 200 responses for the page, stylesheet, and JavaScript.
+- Verified live wheel spins, the winner dialog, daily-plan updates, and decreasing spin allowance in the browser.
+- Updated the README's production access description.
+
 ## 2026-10-01 — Project reflection
 
 - Added the three project reflection questions and answers to Readme.md, covering the experience represented, its most important aspect, and what the current prototype captures or leaves out.

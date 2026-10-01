@@ -61,4 +61,4 @@ The limit and settings are stored in localStorage in this browser. Same-origin t
 
 This is a static app with no build step or dependencies. Serve `dist` with a local HTTP server, or open `dist/index.html` in a browser that supports local storage. Google Fonts is optional; system sans-serif fonts provide a fallback.
 
-Validate JavaScript syntax with `node --check dist/app.js`. Respect reduced-motion preferences. The production app is hosted privately at https://day-wheel-erink.eku2101.chatgpt.site/.
+Validate JavaScript syntax with `node --check dist/app.js`. Respect reduced-motion preferences. The production app is publicly accessible at https://day-wheel-erink.eku2101.chatgpt.site/.
